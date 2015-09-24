@@ -1,3 +1,7 @@
+branches:
+  only:
+    - travis-ci
+
 language: node_js
 
 node_js:
@@ -36,8 +40,8 @@ env:
     - BUILD='server'
 
   global:
-    - secure: myFP8vndNuVGr2b+WtP4efJ2fJL7By7PUi2yxgbUlaqK82qgkayrp7zu6G7YKYBtWRTaRvwybX4XVZn9zCvFm2xTB8xSeWy3bB63JZcYPGzLpwusgJ69Kr+K5dAn/EzIj23pIjqVic9XmEEFK1FqCLp8V2Ty4kl3RG7onfwALUo=
-    - secure: PFKH8/mY7hD82ipfa46znhWJQzEZ8226ZgHLVFLiM2LAxHP6aWGDgyYaSZVGlpulAGXx2Pq+RLPjetQRpjy7CA6NWr/2YtAxvx88QkufRRylKyNgEy5Pf1ej/V88SHnfdpGIizNeF/ofAMPmsGfBaDUm3+gU1RT+zLNj5gl3J/4=
+    - secure: fb4uSZUD2LCvw3uHKgV9cE77/PFiAfBSGLm+EPFgoG4vCn8bz4lNFghuun9IXd3zoWiNFi0XuKScNCUOtpafFXbbMD6PWgTLQ6vmp1Fx1iTtsnPkFrCxVF3Wo+c94sw2iHtkrDzhmlVEk5Xy3/KYW3406Nj3qmDfgFxScPYrzyc=
+    - secure: aP2pEwH+fsQ79xEJwE9ZigeTAmSM8tW9bvGOSMPExFfqRRRqKpXR1l359dmnS4KVrBH5TD4Ch+nWSq/V46CDodQqyFAw9JCXaxhM4j7HOvp1l7U/j7+l3E0cY8r1HTaWCwlIi/rkO3UC6WkuC476lGhCdhzdfi0VuZJ8RKSFjSs=
 
 matrix:
   include:
